@@ -1,5 +1,4 @@
 
-
 const Login = () => {
   return (
     <section className='min-h-screen flex items-center justify-center bg-[rgba(113,113,122,0.07)] px-4'>

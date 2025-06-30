@@ -1,11 +1,11 @@
 const Services = () => {
   return (
     <section className="sec px-4 py-8 bg-white min-h-screen">
-      <div className="container mx-auto max-w-7xl">
+      <div className="container">
         <div className="section-items">
           <div className="mt-10 flex flex-col md:flex-row md:items-center md:gap-10 gap-6">
             <div className="md:flex-1">
-              <input className="border border-[#71717A] rounded-lg w-full max-w-md py-2.5 px-4 text-base placeholder:text-gray-500" type="search" placeholder="Search..."/>
+              <input className="border border-[#71717A] rounded-lg w-full max-w-md py-2.5 px-4 text-base placeholder:text-gray-500" type="search" placeholder="Search..." />
             </div>
             <div className="md:flex-2 w-full">
               <ul className="flex flex-wrap justify-center md:justify-start gap-2">
@@ -25,9 +25,9 @@ const Services = () => {
                   <li key={service}>
                     <a href="#" className={`font-open-sans text-xs leading-4 inline-block rounded-md pt-2 pr-3 pb-2 pl-3
                         ${service === "All"
-                          ? "bg-[#166534] text-white"
-                          : "border border-[#71717A] text-black hover:border-0 hover:bg-[#166534] hover:text-white transition"
-                        }`}>
+                        ? "bg-[#166534] text-white"
+                        : "border border-[#71717A] text-black hover:border-0 hover:bg-[#166534] hover:text-white transition"
+                      }`}>
                       {service}
                     </a>
                   </li>
