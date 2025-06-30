@@ -1,12 +1,12 @@
 
 import { BrowserRouter, Routes, Route } from "react-router";
 
-import Home from "./pages/Home";
-import Login from "./pages/login";
-import Cart from "./pages/Cart";
-import Services from "./pages/Services";
-import Contact from "./pages/Contact";
-import MainLayout from "./layouts/MainLayout";
+import Home from "./pages/Home.jsx";
+import Login from "./pages/Login.jsx";
+import Cart from "./pages/Cart.jsx";
+import Services from "./pages/Services.jsx";
+import Contact from "./pages/Contact.jsx";
+import MainLayout from "./layouts/MainLayout.jsx";
 
 
 
